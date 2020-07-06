@@ -1,0 +1,27 @@
+{
+  "name": "gitbook-plugin-theme-customize",
+  "author": {
+    "name": "yulongsheng"
+  },
+  "bugs": {
+    "url": "https://github.com/CocosService/gitbook-plugin-theme-customize/issues"
+  },
+  "dependencies": {},
+  "description": "Gitbook theme",
+  "engines": {
+    "gitbook": ">=3.0.0"
+  },
+  "homepage": "https://github.com/CocosService/gitbook-plugin-theme-customize#readme",
+  "keywords": [
+    "gitbook",
+    "theme",
+    "fexa"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CocosService/gitbook-plugin-theme-customize.git"
+  },
+  "scripts": {},
+  "version": "0.3.4"
+}
