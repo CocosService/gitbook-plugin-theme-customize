@@ -76,10 +76,17 @@ require(["gitbook", "jquery"], function(gitbook, $) {
       $searchIcon.fadeIn();
     });
 
-    var $homeIcon = $("#homeIcon");
-    $homeIcon.click(function(e) {
-      location.href = "/";
+    var $logoIconEn = $("#logoIconEn");
+    $logoIconEn.click(function(e) {
+      location.href = "https://service.cocos.com/en/";
     });
+
+    var $logoIconZh = $("#logoIconZh");
+    $logoIconZh.click(function(e) {
+      location.href = "https://service.cocos.com/";
+    });
+
+    var 
 
     //去掉gitbook-link
     $(".summary .gitbook-link").hide();

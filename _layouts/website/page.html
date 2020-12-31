@@ -3,14 +3,12 @@
 <div class="book">
 	<div class="header-inner">
 		<!-- LOGO -->
-		<div class="logo">
-			{% if book.themeFexa.lang != "zh"%}
-				<a href="https://service.cocos.com/en/">XX</a>
-			{% endif %}
-			{% if book.themeFexa.lang == "zh"%}
-			    <a href="https://service.cocos.com/">XX</a>
-			{% endif %}
-		</div>
+		{% if book.themeFexa.lang != "zh"%}
+		    <div id="logoIconEn" class="logo"></div>
+		{% endif %}
+		{% if book.themeFexa.lang == "zh"%}
+		    <div id="logoIconZh" class="logo"></div>
+        {% endif %}
 		<span class="title">
 			{% if book.themeFexa.lang != "zh"%}
 			    <a href="https://service.cocos.com/document/en/">Document</a>
@@ -103,8 +101,7 @@
 		gitbook.push(function() {
 			gitbook.page.hasChanged({{ template.getJSContext()|dump|safe }});
 		});
-	</script>
-	<script>
+		
 		var _hmt = _hmt || [];
 		(function() {
 		  var hm = document.createElement("script");
