@@ -78,12 +78,13 @@ require(["gitbook", "jquery"], function(gitbook, $) {
 
     var $logoIconEn = $("#logoIconEn");
     $logoIconEn.click(function(e) {
-      location.href = "https://test-service.cocos.com/";
+      //location.href = "https://test-service.cocos.com/";
+      location.herf = "https://service.cocos.com/document/en/"
     });
 
     var $logoIconZh = $("#logoIconZh");
     $logoIconZh.click(function(e) {
-      location.href = "https://test-service.cocos.com/";
+      location.href = "https://service.cocos.com/document/zh/";
     });
 
     var $homeIcon = $("#homeIcon");
