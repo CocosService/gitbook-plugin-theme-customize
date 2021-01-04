@@ -64,7 +64,7 @@ require(["gitbook", "jquery"], function(gitbook, $) {
     var $searchInput = $search.find("input");
     var placeholder =
       configs.pluginsConfig["theme-fexa"]["search-placeholder"] ||
-      "输入关键字搜索1";
+      "输入关键字搜索";
     $searchInput.attr("placeholder", placeholder);
     $searchIcon.click(function(e) {
       $search.fadeIn();
