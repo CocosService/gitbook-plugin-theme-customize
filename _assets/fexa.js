@@ -1,7 +1,7 @@
 require(["gitbook", "jquery"], function(gitbook, $) {
   var configs;
   var apiUrl = "/api/product/withFavorite";
-  var defaultPath = "https://service.cocos.com/";
+  var defaultPath = "https://test-service.cocos.com/";
   //生成内容导航
   function generateSectionNavigator() {
     //是否显示内容导航
