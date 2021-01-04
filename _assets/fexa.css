@@ -148,6 +148,7 @@ body {
   background: url('./logo.png');
   background-size: contain;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .header-inner .logo img {
