@@ -64,7 +64,7 @@ require(["gitbook", "jquery"], function(gitbook, $) {
     var $searchInput = $search.find("input");
     var placeholder =
       configs.pluginsConfig["theme-fexa"]["search-placeholder"] ||
-      "输入关键字搜索";
+      "输入关键字搜索1";
     $searchInput.attr("placeholder", placeholder);
     $searchIcon.click(function(e) {
       $search.fadeIn();
@@ -86,7 +86,10 @@ require(["gitbook", "jquery"], function(gitbook, $) {
       location.href = "https://service.cocos.com/";
     });
 
-    var 
+    var $homeIcon = $("#homeIcon");
+    $homeIcon.click(function(e) {
+      location.href = "/";
+    });
 
     //去掉gitbook-link
     $(".summary .gitbook-link").hide();
