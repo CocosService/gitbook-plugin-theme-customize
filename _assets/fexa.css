@@ -153,8 +153,8 @@ body {
 
 .header-inner .store-logo {
   float: left;
-  height: 42px;
-  width: 102px;
+  height: 38px;
+  width: 92px;
   background: url('./store.png');
   background-size: contain;
   background-repeat: no-repeat;
