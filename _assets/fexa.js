@@ -87,6 +87,16 @@ require(["gitbook", "jquery"], function(gitbook, $) {
       location.href = "https://service.cocos.com/document/zh/";
     });
 
+    var $storeIconEn = $("#storeIconEn");
+    $storeIconEn.click(function(e) {
+      location.herf = "https://store.cocos.com/document/en/"
+    });
+
+    var $storeIconZh = $("#storeIconZh");
+    $storeIconZh.click(function(e) {
+      location.herf = "https://store.cocos.com/document/zh/"
+    });
+
     var $homeIcon = $("#homeIcon");
     $homeIcon.click(function(e) {
       location.href = "/";

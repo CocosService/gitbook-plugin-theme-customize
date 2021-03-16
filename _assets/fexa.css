@@ -151,6 +151,16 @@ body {
   cursor: pointer;
 }
 
+.header-inner .store-logo {
+  float: left;
+  height: 42px;
+  width: 102px;
+  background: url('./store.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
 .header-inner .logo img {
   display: block;
   height: inherit;

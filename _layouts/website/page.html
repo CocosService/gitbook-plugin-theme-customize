@@ -3,14 +3,20 @@
 <div class="book">
 	<div class="header-inner">
 		<!-- LOGO -->
-		{% if book.themeFexa.lang != "zh"%}
+		{% if book.themeFexa.lang == "en"%}
 		    <div id="logoIconEn" class="logo"></div>
 		{% endif %}
 		{% if book.themeFexa.lang == "zh"%}
 		    <div id="logoIconZh" class="logo"></div>
         {% endif %}
+		{% if book.themeFexa.lang == "en-store"%}
+			<div id="storeIconEn" class="store-logo"></div>
+		{% endif %}
+		{% if book.themeFexa.lang == "zh-store"%}
+			<div id="storeIconZh" class="store-logo"></div>
+		{% endif %}
 		<span class="title">
-			{% if book.themeFexa.lang != "zh"%}
+			{% if book.themeFexa.lang == "en"%}
 			    <a href="https://service.cocos.com/document/en/">Document</a>
 			    <a href="https://service.cocos.com/document/api/" target="_blank">API</a>
 			    <a href="https://github.com/cocosservice" target="_blank">Sample</a>
